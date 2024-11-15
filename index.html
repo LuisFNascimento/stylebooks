@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StyleBooks</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -47,9 +48,41 @@
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-        
-        
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da style books"></div>
+            <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre liderança em design da style books"></div>
+            <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade da style books"></div>
+            <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro sobre Tuning da style books"></div>
+            <div class="swiper-slide"><img src="img/Lideranc╠ºa.svg" alt="Livro sobre liderança da style books"></div>
+            <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol da style books"></div>
+            <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre Nodejs da style books"></div>
+            <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro sobre Front-end da style books"></div>
+            </div>        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+        });
+    </script>
 </body>
 
 </html>
