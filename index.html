@@ -65,14 +65,13 @@
             <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol da style books"></div>
             <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre Nodejs da style books"></div>
             <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro sobre Front-end da style books"></div>
-            <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Livro sobre Front-end da style books"></div>
+            <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Livro sobre MetricasAgeis da style books"></div>
+            <div class="swiper-slide"><img src="img/Construct2.svg" alt="Livro sobre Jogos da style books"></div>
+            <div class="swiper-slide"><img src="img/UX.svg" alt="Livro sobre UX Estratégico da style books"></div>
             </div>        
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
     </section>
 
@@ -80,7 +79,11 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView: 1,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
         });
     </script>
 </body>
