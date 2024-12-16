@@ -16,6 +16,11 @@
 .container {
     display: flex;
     align-items: center; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Poppins;
 }
 
 .container__imagem {
@@ -39,6 +44,7 @@
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
+    
 }
 
 .lista-menu__titulo {
@@ -55,6 +61,8 @@
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     margin-left: 1em; 
+    text-decoration: none;
+
 }
 
 .container__botao {

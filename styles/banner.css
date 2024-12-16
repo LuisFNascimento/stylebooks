@@ -2,11 +2,12 @@
     background: var(--cor-fonte-azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 6.5rem 6rem;
+    padding: 3.0rem 2rem;
+   
 }
 
 .banner__titulo {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     
 }
@@ -20,8 +21,8 @@
     border: 1px solid var(--branco);
     color: var(--branco);
     border-radius: 30px;
-    padding: 0.8rem;
-    width: 130%;
+    padding: 0.5rem;
+    width: 100%;
 }
 
 .banner__pesquisa::placeholder {
