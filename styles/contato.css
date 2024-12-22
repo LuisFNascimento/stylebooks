@@ -31,7 +31,7 @@
 
 .contato__email::placeholder {
     font-family: var(--fonte-principal);
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 400;
     padding-left: 4em;
     color: var(--cor-fonte-azul);
@@ -55,6 +55,17 @@
     .contato__descricao {
         margin-right: 1em;
         width: 30%;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+
+    .contato {
+        padding: 3em 20vw;
     }
 
     .contato__titulo {
