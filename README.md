@@ -1,6 +1,6 @@
 # StyleBooks
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/portifolio_luis_fernando/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/stylebooks/blob/main/LICENSE)
 
 ### ***Descrição***
 
@@ -102,6 +102,8 @@ Submeta um Pull Request.
 ```
 
 ## Licença
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/stylebooks/blob/main/LICENSE)
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
 
