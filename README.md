@@ -55,7 +55,7 @@ img/: Pasta contendo as imagens utilizadas no projeto.
 1. Clone este repositório:
 
 ``` HTML
-git clone https://github.com/seu-usuario/stylebooks.git
+git clone https://github.com/LuisFNascimento/stylebooks
 ```
 
 2. Navegue até o diretório do projeto:
